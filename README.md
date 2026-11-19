@@ -28,6 +28,12 @@ I’m open to junior data analyst roles and internships.
 
 ## 🚀 Featured Projects
 
+### College ERP — PostgreSQL Database
+
+Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
+
+**Tools** — PostgreSQL, SQL, Python, Faker, pandas
+
 ### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
 An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
 `MERN` `Google Gemini` `Atlas Vector Search` `Razorpay`
