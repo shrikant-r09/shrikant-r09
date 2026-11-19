@@ -51,7 +51,7 @@ A fully normalized 25-table PostgreSQL schema with 230K+ FK-consistent synthetic
 ## 📫 Let's Connect
 
 - 🌐 Portfolio: [shrikant-dev.vercel.app](https://shrikant-dev.vercel.app/)
-- 💼 LinkedIn: [add your LinkedIn URL]
-- 📧 Email: [add your email]
+- 💼 LinkedIn: [[add your LinkedIn URL]](https://www.linkedin.com/in/shrikant-rathod-8969snr99/)
+- 📧 Email: snrathod988@gmail.com
 
 ⭐ If you like my projects, feel free to star the repos!
