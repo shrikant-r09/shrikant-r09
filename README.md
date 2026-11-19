@@ -11,7 +11,7 @@ I’m open to junior data analyst roles and internships.
 
 ## 🚀 Featured Projects
 
-### 🎓[Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
+### 🎓[Text-to-SQL with Query Guardrails — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
 
 Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
 `PostgreSQL` `SQL` `Python` `Faker` `Pandas`
