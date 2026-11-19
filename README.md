@@ -28,7 +28,7 @@ I’m open to junior data analyst roles and internships.
 
 ## 🚀 Featured Projects
 
-### [Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
+### 🎓[Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
 
 Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
 `PostgreSQL` `SQL` `Python` `Faker` `Pandas`
@@ -42,10 +42,6 @@ An AI study partner that answers **only from your notes**. Upload PDFs, Word, Po
 ### 🧾 [Billing & Invoice Generator](https://github.com/shrikant-r09/invoice_generator)
 A cross-platform mobile app for shops and cafés with role-based Admin and Customer interfaces, product management, cart, orders, invoices, and payment tracking.
 `Flutter` `Dart` `Shared Preferences`
-
-### 🎓 College ERP: Synthetic Database
-A fully normalized 25-table PostgreSQL schema with 230K+ FK-consistent synthetic rows (students, faculty, attendance, exams, fees, library, placements), verified with zero constraint violations.
-`PostgreSQL` `Python` `Faker` `pandas`
 
 ---
 
