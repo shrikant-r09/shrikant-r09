@@ -1,11 +1,12 @@
-# Hi, I'm Shrikant Rathod 👋
+# Hi, I’m Shrikant Rathod
 
-**Full-Stack Developer & Data Analyst** | Final-year CSE student at DYPCET, Kolhapur
+**Data Analyst | Python, SQL & PostgreSQL**
 
-I build full-stack web and mobile apps with the MERN stack, FastAPI, and Flutter. I'm also into data analysis and AI-powered products. **Open to jobs and internships.**
+I’m a final-year Computer Science and Engineering student at DYPCET, Kolhapur. During my data analyst internship at CHEARS, I analyzed spending patterns and campaign responses across about 2,500 customer records and used K-Means to identify customer segments.
 
-🌐 **Portfolio:** [shrikant-dev.vercel.app](https://shrikant-dev.vercel.app/)
+I’m open to junior data analyst roles and internships.
 
+[Connect with me on LinkedIn](https://linkedin.com/in/shrikant-rathod-8969snr99/)
 ---
 
 ## 🛠️ Tech Stack
@@ -50,7 +51,6 @@ A fully normalized 25-table PostgreSQL schema with 230K+ FK-consistent synthetic
 
 ## 📫 Let's Connect
 
-- 🌐 Portfolio: [shrikant-dev.vercel.app](https://shrikant-dev.vercel.app/)
 - 💼 LinkedIn: [https://www.linkedin.com/in/shrikant-rathod-8969snr99/](https://www.linkedin.com/in/shrikant-rathod-8969snr99/)
 - 📧 Email: [snrathod988@gmail.com](snrathod988@gmail.com)
 
