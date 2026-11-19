@@ -9,6 +9,36 @@ I’m open to junior data analyst roles and internships.
 [Connect with me on LinkedIn](https://linkedin.com/in/shrikant-rathod-8969snr99/)
 ---
 
+## 🚀 Featured Projects
+
+### 🎓[Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
+
+Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
+`PostgreSQL` `SQL` `Python` `Faker` `Pandas`
+[View the live Text-to-SQL demo](https://g52-web.vercel.app/)
+
+#### SQL example — Student count by department
+
+This query ranks departments by the number of students enrolled.
+```sql
+SELECT d.department_name,
+COUNT(s.student_id) AS student_count
+FROM departments d JOIN students s ON d.department_id = s.department_id
+GROUP BY d.department_name
+ORDER BY student_count DESC
+```
+
+### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
+An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
+`MERN` `Google Gemini` `Atlas Vector Search` `Razorpay`
+[View the live demo](https://studymate-ai-tutor.vercel.app/) · [View the source code](https://github.com/Study-Mate-AI/StudyMate-AI)
+
+### 🧾 [Billing & Invoice Generator](https://github.com/shrikant-r09/invoice_generator)
+A cross-platform mobile app for shops and cafés with role-based Admin and Customer interfaces, product management, cart, orders, invoices, and payment tracking.
+`Flutter` `Dart` `Shared Preferences`
+
+---
+
 ## 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -26,37 +56,6 @@ I’m open to junior data analyst roles and internships.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 🚀 Featured Projects
-
-### 🎓[Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
-
-Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
-`PostgreSQL` `SQL` `Python` `Faker` `Pandas`
-[View the live Text-to-SQL demo](https://g52-web.vercel.app/)
-
-#### SQL example — Count tables in the ERP schema
-
-This query Which departments have the most students.
-
-```sql
-SELECT d.department_name,
-COUNT(s.student_id) AS student_count
-FROM departments d JOIN students s ON d.department_id = s.department_id
-GROUP BY d.department_name
-ORDER BY student_count DESC
-```
-
-### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
-An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
-`MERN` `Google Gemini` `Atlas Vector Search` `Razorpay`
-[View the live demo](https://studymate-ai-tutor.vercel.app/) · [View the source code](https://github.com/Study-Mate-AI/StudyMate-AI)
-
-### 🧾 [Billing & Invoice Generator](https://github.com/shrikant-r09/invoice_generator)
-A cross-platform mobile app for shops and cafés with role-based Admin and Customer interfaces, product management, cart, orders, invoices, and payment tracking.
-`Flutter` `Dart` `Shared Preferences`
 
 ---
 
