@@ -39,14 +39,15 @@ Designed a normalized PostgreSQL schema with 25 tables covering attendance, exam
 
 #### SQL example — Count tables in the ERP schema
 
-This query Which departments have the most students?, excluding views.
+This query Which departments have the most students.
 
 ```sql
 SELECT d.department_name,
 COUNT(s.student_id) AS student_count
 FROM departments d JOIN students s ON d.department_id = s.department_id
 GROUP BY d.department_name
-ORDER BY student_count DESC```
+ORDER BY student_count DESC
+```
 
 ### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
 An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
