@@ -11,12 +11,15 @@ I’m open to junior data analyst roles and internships.
 
 ## 🛠️ Tech Stack
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -33,6 +36,17 @@ I’m open to junior data analyst roles and internships.
 Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
 `PostgreSQL` `SQL` `Python` `Faker` `Pandas`
 [View the live Text-to-SQL demo](https://g52-web.vercel.app/)
+
+#### SQL example — Count tables in the ERP schema
+
+This query Which departments have the most students?, excluding views.
+
+```sql
+SELECT d.department_name,
+COUNT(s.student_id) AS student_count
+FROM departments d JOIN students s ON d.department_id = s.department_id
+GROUP BY d.department_name
+ORDER BY student_count DESC```
 
 ### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
 An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
