@@ -31,12 +31,13 @@ I’m open to junior data analyst roles and internships.
 ### [Test-to-SQL using Hallucination and Guardrail — PostgreSQL Database](https://github.com/Text-To-SQL-Project/G-52-Project)
 
 Designed a normalized PostgreSQL schema with 25 tables covering attendance, exams, fees, and placements. Generated over 230,000 synthetic records and verified that the data passed database constraint checks.
-
-**Tools** — PostgreSQL, SQL, Python, Faker, pandas
+`PostgreSQL` `SQL` `Python` `Faker` `Pandas`
+[View the live Text-to-SQL demo](https://g52-web.vercel.app/)
 
 ### 🧠 [StudyMate AI](https://github.com/Study-Mate-AI/StudyMate-AI)
 An AI study partner that answers **only from your notes**. Upload PDFs, Word, PowerPoint, or images and get cited answers, auto-generated quizzes, and weak-topic analytics using RAG.
 `MERN` `Google Gemini` `Atlas Vector Search` `Razorpay`
+[View the live demo](https://studymate-ai-tutor.vercel.app/) · [View the source code](https://github.com/Study-Mate-AI/StudyMate-AI)
 
 ### 🧾 [Billing & Invoice Generator](https://github.com/shrikant-r09/invoice_generator)
 A cross-platform mobile app for shops and cafés with role-based Admin and Customer interfaces, product management, cart, orders, invoices, and payment tracking.
